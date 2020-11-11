@@ -1,5 +1,5 @@
 # 김봉규 Resume APIs
-## 1.김봉규 Resume APIs 관련 문서입니다.
+## 1. 김봉규 Resume APIs 관련 문서입니다.
 > 기본적인 이력서 내용과 여태까지 진행하였던 프로젝트와 관련된 경력에 대한 내용을 담고 있습니다.   
 > www.example.com   
 > 해당 사이트에서 구현된 내용을 확인 하실수 있습니다.   
@@ -7,10 +7,10 @@
 > 각 API의 자세한 사항은 아래의 SwaggerHub의 문서를 확인해주시길 바랍니다.   
 > https://app.swaggerhub.com/apis-docs/Bnine/Bnine-resume-api/1.0.0#/
 ## 1.1. API관련 안내 사항
-> 1. 모든 API는 무분별한 호출로 인해 개인정보가 노출 되는 것을 막기 위해 App\Http\Middleware\CheckBearer Class에 의해 검증을 하도록 구현되어 있습니다.
-> 2. 만약 Web Access가 아닌 직접 postman이나 다른 방법으로 API를 직접 호출 하시고자 하는 경우 다음과 같은 Bearer 토큰을 사용하여 주십시요.  Authorization: Bearer VkdZMXJ2RldCeldFYTRwWDI5QWRXdWptRW8zV1RvRFU2a1ByRnJReDF1QnNFUlNHU05tREFDczdGZlBCVjdQOHhSOVlEVnFsUUdLZkhaU2g=
-> 3. profile과 work-experience 두 API는 파라미터로 {m_id}을 반드시 필요로 하고 있습니다. 
-> 4. 만약 Web Access가 아닌 직접 postman이나 다른 방법으로 위의 두 API를 직접 호출 하시고자 하는 경우 파라미터로 다음과 같은 값을 사용하여 주십시요.  91aad9dc-6f36-4603-ad4a-f5882161927b
+> - 모든 API는 무분별한 호출로 인해 개인정보가 노출 되는 것을 막기 위해 App\Http\Middleware\CheckBearer Class에 의해 검증을 하도록 구현되어 있습니다.
+> - 만약 Web Access가 아닌 직접 postman이나 다른 방법으로 API를 직접 호출 하시고자 하는 경우 다음과 같은 Bearer 토큰을 사용하여 주십시요.   Authorization: Bearer VkdZMXJ2RldCeldFYTRwWDI5QWRXdWptRW8zV1RvRFU2a1ByRnJReDF1QnNFUlNHU05tREFDczdGZlBCVjdQOHhSOVlEVnFsUUdLZkhaU2g=
+> - profile과 work-experience 두 API는 파라미터로 {m_id}을 반드시 필요로 하고 있습니다. 
+> - 만약 Web Access가 아닌 직접 postman이나 다른 방법으로 위의 두 API를 직접 호출 하시고자 하는 경우 파라미터로 다음과 같은 값을 사용하여 주십시요.   91aad9dc-6f36-4603-ad4a-f5882161927b
 ## 2. API 디렉토리 구성
 - Controller
 ```
