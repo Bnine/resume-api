@@ -13,7 +13,9 @@
 - profile과 work-experience 두 API는 파라미터로 {m_id}을 반드시 필요로 하고 있습니다. 
 - 만약 Web Access가 아닌 직접 postman이나 다른 방법으로 위의 두 API를 직접 호출 하시고자 하는 경우 파라미터로 다음과 같은 값을 사용하여 주십시요.
     - 91aad9dc-6f36-4603-ad4a-f5882161927b
-## 2. API 디렉토리 구성
+## 2. API 흐름도
+<img src="https://bnine-resume.s3.ap-northeast-2.amazonaws.com/images/site-flow.png" title="api-flow" alt="api-flow"></img><br/>
+## 3. API 디렉토리 구성
 - Controller
 ```
     - MainController 컨트롤러(모든 resume APIs 요청을 처리 하는 컨트롤러)
