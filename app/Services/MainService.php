@@ -143,6 +143,7 @@ class MainService
             "name_kr" => $resumeData->M_NAME_KR,
             "name_en" => $resumeData->M_NAME_EN,
             "birth" => $resumeData->M_BIRTH,
+            "degree" => $resumeData->M_DEGREE,
             "crtfi_kr" => $resumeData->M_CRTFI_KR,
             "crtfi_en" => $resumeData->M_CRTFI_EN,
             "ofln" => $resumeData->M_OFLN,
