@@ -1,11 +1,17 @@
 # 김봉규 Resume APIs
 ## 1.김봉규 Resume APIs 관련 문서입니다.
 > 기본적인 이력서 내용과 여태까지 진행하였던 프로젝트와 관련된 경력에 대한 내용을 담고 있습니다.
+
 > https://resume.bnine.xyz/ 
+
 > 해당 사이트에서 구현된 내용을 확인 하실수 있습니다.
+
 > Front-end는 Vue.js로 구현 하였으며 Back-end는 php와 laravel Framework로 구현 하였습니다.
+
 > 젠킨스와 도커를 이용하여 CI/CD를 구현하여 현재 동작중입니다.
+
 > 각 API의 자세한 사항은 아래의 SwaggerHub의 문서를 확인해주시길 바랍니다.
+
 > https://app.swaggerhub.com/apis-docs/Bnine/Bnine-resume-api/1.0.0#/
 ## 1.1. API관련 안내 사항
 ```
